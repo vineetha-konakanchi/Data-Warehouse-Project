@@ -17,7 +17,7 @@ CREATE TABLE bronze.crm_cust_info (
 	cst_lastname NVARCHAR(50),
 	cst_material_status Nvarchar(50),
 	cst_gndr NVARCHAR(50),
-	cst_create_data DATE
+	cst_create_date DATE
 );
 
 IF OBJECT_ID('bronze.crm_prd_info', 'U') IS NOT NULL
